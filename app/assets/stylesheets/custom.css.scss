@@ -11,38 +11,37 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   color: #6c6f73;
+  font-family:Open Sans;
 }
 
-.bg {
-  background-color: rgba(20,20,20,0.9);
-}
+*{font-family:Open Sans};
+
 
 h1,h2,h3,h4,h5 {
   color: #333;
 }
 
-.navbar {
-  font-family: 'Lato';
+.bg {
+  background: rgba(0,0,0,0.8);
+  font-family: 'Open Sans';
 }
 
-h6 {
+hr {
+  max-width: 50px;
+  border-color: #428bca;
+  border-width: 2px;
+}
+
+.navbar-nav {
+  font-size: 14px;
+  font-weight: 100;
   text-transform: uppercase;
-  font-weight: bold;
-  font-size: 0.8rem;
-  letter-spacing: 0.1rem;
-}
-
-img {
-  max-width: 100%;
-}
-
-.navbar {
-  padding: -30px;
+  font-family:Open-Sans;
 }
 
 #stage {
-  font-family: 'Open Sans';
-  background: asset-url('try1.jpg') center center no-repeat;
+  background: asset-url('cover1.jpg') center center no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   color: white;
   height: 100%;
@@ -55,77 +54,150 @@ img {
 #stage-caption {
   font-size: 1.4rem;
   font-weight: 200;
-  max-width: 60rem;
+  max-width: 80rem;
   margin: 0 auto;
   text-align: center;
 }
 
 #stage-caption h1{
-  font-family: 'Lato';
-  color: white;
+  font-family:Lato;
+  color: #e0e0e0;
+  letter-spacing: 8px;
   text-transform: uppercase;
 }
 
-#about {
-  font-family: 'Open Sans';
-  background-color: #f0f0f0;
-  background-size: auto;
-  align-items: center;
-  padding-bottom: 40px;
+#stage-caption p{
+  color: #aeaeae;
+  text-transform: uppercase
 }
 
 .feature-content {
-  text-align: center;
-  padding-top: 40px;
+  background: #fefefe;
+  padding: 60px;
+}
+
+.card {
+  background: #fefefe;
+}
+
+#slika .slika {
+  background-image: asset-url('desno1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 650px;
+  display: flex;
   border: none;
 }
 
-.feature-content h2 {
-  text-transform: uppercase;
+.tekst {
+  padding-top: 120px;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
 }
 
-.feature-dark {
-  font-family: 'Open Sans';
-  background: #222;
-  color: #f0f0f6;
-  padding-bottom: 40px;
+#stage-two{
+  background: asset-url('vtor-cover.jpg') center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: none;
 }
 
-.feature-dark h4 {
-  color: #f0f0f6;
+#stage-caption-two {
+  background: rgba(0,0,0,0.5);
+  font-size: 1.4rem;
+  font-weight: 200;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.feature-dark h2 {
-  color: #f0f0f6;
+.carousel {
+  width: 100%;
+  height: 400px;
+  align-items: center;
 }
 
-.feature-dark h3 {
-  color: #f0f0f6;
+.carousel-item {
+  padding: 100px;
+  align-items: center;
+  text-align: center;
 }
 
-#contact {
-  padding-top: 10px;
+#items {
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
 }
 
-#fri {
-  padding-top: 20px;
+.carousel-item h3 {
+  color: #f0f0f0;
+}
+
+.feature-end {
+  padding: 80px;
+  background: rgba(0,0,0,0.95); 
+}
+
+.feature-content-end  {
+  text-align: center;
+  align-items: center;
+}
+
+.boja  {
+  color: #428bca;
+}
+
+.feature-content-end h2 {
+  color: #cdccdc;
+}
+
+.feature-content-end p {
+  color: #cdcdcd;
 }
 
 .btn {
-  padding: 14px 10px;
-  letter-spacing: 0.5px;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
-#end{
-  font-family: 'Open Sans';
-  padding-bottom: 50px
-}
-
-#footer-main{
-  align-items: center;
+.quote {
   text-align: center;
-  background: #333;
-  padding-top: 100px
+  color: #cdcdcd;
 }
+
+.quote h4 {
+  color: #cfcfcf;
+}
+
+.feature-footer {
+  padding-bottom: 20px;
+  background: rgba(0,0,0,0.95);
+}
+
+.skill {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.skill h5 {
+  color: #cfcfcf;
+  text-transform: uppercase;
+}
+
+.skill p {
+  color: #bfbfbf;
+  font-weight: 100;
+}
+
+.dev {
+  text-align: center;
+}
+
+
+
 

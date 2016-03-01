@@ -198,6 +198,22 @@ hr {
   text-align: center;
 }
 
+#articles {
+  padding-top: 70px;
+  height: 100%;
+  background: asset-url('articles_back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
+#articles h3 {
+  color: #f0f0f0;
+}
 
-
+.list-group-item {
+  background: rgba(0,0,0,0.7);
+  border-radius: 20px;
+  border-color: rgba(0,0,0,0.7);
+  margin-bottom: 10px;
+}
